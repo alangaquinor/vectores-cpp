@@ -1,94 +1,97 @@
-# 📏 Vectores en C++
+📚 Estructuras de Datos en C
 
-Este repositorio contiene una colección de **ejercicios de programación en C++** enfocados en el uso de **vectores**, desarrollados por **Alan G. Aquino R.**
+Este repositorio contiene una colección de ejercicios de programación en
+C enfocados en el uso de estructuras de datos, desarrollados por Alan G.
+Aquino R.
 
-Los programas están diseñados para practicar conceptos fundamentales como:
-- Recorridos de vectores.
-- Operaciones matemáticas sobre sus elementos.
-- Búsqueda de máximos y mínimos.
-- Promedios y comparaciones.
-- Combinación y manipulación de arreglos.
+Los programas están diseñados para practicar conceptos fundamentales
+como: - Definición y uso de struct. - Arreglos de estructuras. -
+Estructuras anidadas. - Listas enlazadas simples y dobles. - Pilas y
+colas con listas dinámicas. - Uso de memoria dinámica con malloc y
+realloc.
 
----
+------------------------------------------------------------------------
 
-# 📂 Contenido
+📂 Contenido
 
-Cada archivo `.cpp` corresponde a un ejercicio independiente:
+Cada archivo .c corresponde a un ejercicio independiente:
 
-1. `ej01_suma_vector.cpp` → Suma de elementos de un vector.  
-2. `ej02_producto_vector.cpp` → Producto acumulado de un vector.  
-3. `ej03_indices_vector.cpp` → Mostrar elementos con sus índices.  
-4. `ej04_inverso_vector.cpp` → Vector en orden inverso.  
-5. `ej05_maximo_vector.cpp` → Mayor elemento del vector.  
-6. `ej06_numero_suma_resto.cpp` → Número igual a la suma del resto.  
-7. `ej07_combinar_vectores.cpp` → Combinar dos vectores de caracteres.  
-8. `ej08_copiar_multiplicar.cpp` → Copiar elementos multiplicados por 2.  
-9. `ej09_segundo_mayor.cpp` → Segundo mayor elemento del vector.  
-10. `ej10_unicos_vector.cpp` → Elementos únicos en un vector.  
-11. `ej11_suma_posiciones_pares.cpp` → Suma de elementos en posiciones pares.  
-12. `ej12_producto_posiciones_impares.cpp` → Producto de elementos en posiciones impares.  
-13. `ej13_promedio_vector.cpp` → Promedio de elementos.  
-14. `ej14_mayores_promedio.cpp` → Elementos mayores que el promedio.  
-15. `ej15_menores_promedio.cpp` → Elementos menores que el promedio.  
-16. `ej16_iguales_promedio.cpp` → Elementos iguales al promedio.  
+1.  ej01_estructura_persona.c → Estructura persona.
+2.  ej02_arreglo_productos.c → Arreglo de productos.
+3.  ej03_estructura_fecha_empleado.c → Estructura anidada empleado con
+    fecha.
+4.  ej04_estructuras_punto.c → Comparar estructuras punto.
+5.  ej05_estructura_alumno.c → Alumno con notas y promedio.
+6.  ej06_ordenar_libros.c → Ordenar libros por año de publicación.
+7.  ej07_lista_enlazada.c → Lista enlazada simple de enteros.
+8.  ej08_lista_doblemente_enlazada.c → Lista doblemente enlazada de
+    caracteres.
+9.  ej09_pila_lista_enlazada.c → Pila con lista enlazada (push/pop).
+10. ej10_cola_lista_enlazada.c → Cola con lista enlazada
+    (enqueue/dequeue).
+11. ej11_estructura_dinamica_malloc.c → Alumnos con memoria dinámica.
+12. ej12_buscar_contactos.c → Lista de contactos con búsqueda por
+    nombre.
 
----
+------------------------------------------------------------------------
 
-# 🚀 Compilación y ejecución
+🚀 Compilación y ejecución
 
-Para compilar cualquier archivo, usa el compilador `g++`:
+Para compilar cualquier archivo, usa el compilador gcc:
 
-```bash
-g++ ej01_suma_vector.cpp -o suma_vector
-./suma_vector
-```
+    gcc ej01_estructura_persona.c -o persona
+    ./persona
 
----
+------------------------------------------------------------------------
 
-# 📖 Ejemplo de uso
+📖 Ejemplo de uso
 
-Ejemplo con `ej13_promedio_vector.cpp`:
+Ejemplo con ej05_estructura_alumno.c:
 
-Entrada:  
-```
-4 8 15 16 23 42
-```
+Entrada:
 
-Salida:  
-```
-Vector original: 4 8 15 16 23 42
-El promedio de los elementos del vector es: 18
-```
+    Juan
+    10 9 8
+    Maria
+    7 8 10
+    ...
 
----
+Salida:
 
-# 📖 Requisitos
+    Juan | Promedio: 9.00
+    Maria | Promedio: 8.33
+    El alumno con mejor promedio es: Juan (9.00)
 
-- Compilador g++ (GNU C++ 11 o superior recomendado).
-- Sistema operativo: Windows, Linux o macOS.
+------------------------------------------------------------------------
 
----
+📖 Requisitos
 
-# 🤝 Contribuciones
+-   Compilador gcc (GNU C 11 o superior recomendado).
+-   Sistema operativo: Windows, Linux o macOS.
 
-¡Las contribuciones son bienvenidas!  
-Si deseas mejorar los ejercicios o agregar nuevos, por favor haz un fork y envía un pull request.
+------------------------------------------------------------------------
 
----
+🤝 Contribuciones
 
-# 👨‍💻 Autor
+¡Las contribuciones son bienvenidas!
+Si deseas mejorar los ejercicios o agregar nuevos, por favor haz un fork
+y envía un pull request.
 
-Desarrollado por **Alan G. Aquino R.**  
+------------------------------------------------------------------------
+
+👨‍💻 Autor
+
+Desarrollado por Alan G. Aquino R.
 Estudiante de Ingeniería en Informática.
 
----
+------------------------------------------------------------------------
 
-# 📜 Licencia
+📜 Licencia
 
-Este proyecto se distribuye bajo la licencia MIT.  
-Eres libre de usar, modificar y compartir el código con fines educativos o profesionales.
+Este proyecto se distribuye bajo la licencia MIT.
+Eres libre de usar, modificar y compartir el código con fines educativos
+o profesionales.
 
----
+------------------------------------------------------------------------
 
-![C++](https://img.shields.io/badge/language-C%2B%2B-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[C] [License: MIT]
